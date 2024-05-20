@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/dd4ef41627be897ab742a.mp4';
+let videoUrl = 'https://telegra.ph/file/cc12e34523a2b9d05bfb6.mp4';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -35,19 +35,20 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(900) 
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
 let str = ` 
-~*◈≼━⊹═━━〔💧〕━━═⊹━≽◈*~
-
-*مـعـلـومـات الـمـطور↯°*     
+*𑁍━─━═━꒰⛩️꒱━═━─━ 𑁍*
+`مـعـلـومـات الـمـطـور`     
              
-`⌬اســـــــم المــطور :`
-*✮ ⃟╎:「𝘼𝙌𝙐𝘼」*
-`⌬ رقـــم المطــــور :`
-*✮ ⃟╎:「 https://wa.me/+2012898963299 」*
+ *_⌬ الـلــقــــــب :_*
+*✮ ⃟🛡️╎:「𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼」*
+
+ *_⌬ الــــــرقـــم :_*
+*✮ ⃟🛡️╎:「 https://wa.me/+201289863299 」*
 
 
-~*◈≼━⊹═━━〔💧〕━━═⊹━≽◈*~
-*~اداره ريـــــــّنـــــــٌغـــــــآن~*
-*𝑹.𝑮.𝑵*
+ *_⌬ انـســـتـــــا :_*
+*✮ ⃟🛡️╎:「 @ahmed_moheysh 」*
+
+ *𑁍━─━═━꒰⛩️꒱━═━─━ 𑁍*
 ‬`.trim();
 
 conn.sendMessage(m.chat, {
