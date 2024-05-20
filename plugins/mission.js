@@ -19,7 +19,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
     let uptime = clockString(_uptime)
 let who = m.quoted ? m.quoted.sender : m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
-let videoUrl = 'https://telegra.ph/file/3ae76749409db79a420de.mp4';
+let videoUrl = 'https://telegra.ph/file/ff73e9f5bd361264d8d9d.mp4';
   let vn = './media/menu.mp3';
   const user = global.db.data.users[m.sender];
   const {money, joincount} = global.db.data.users[m.sender];
@@ -35,29 +35,28 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(900) 
   const taguser = '@' +  m.sender.split('@s.whatsapp.net')[0];
 let str = ` 
-*∞┇━━━ •『☘️』• ━━━┇∞*
-
+~*◈≼━⊹══━━━〔🏰〕━━━══⊹━≽◈*~
 *◞❐ أهـلا وسـهـلاً بـك يـا ${taguser}*
 
 *｢⧉ اسـم البـوت*
-*↚ 〖𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩〗*
+*↚ 〖𝑻𝑶𝑭𝑨𝑵𝑨〗*
 
 *｢⧉ اســـم الـمـنـصـه*
 *↚〖HEROKU〗*
 
 *｢⧉ الــمـطـور*
-*↚〖乡kặkặśĥí乡〗*
+*↚〖乡𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼乡〗*
 
 *｢⧉ وقـت الـتـشـغـيـل ${uptime}*
 
 *｢⧉ الـتـوقـيـت ${date}*
 
-*∞┇━━━ •『☘️』• ━━━┇∞*
+~*◈≼━⊹══━━━〔🏰〕━━━══⊹━≽◈*~
 
 *｢⧉ لـطلـب قائمه الاوامر اكتب*
 *↚〖.المهام〗*
 
-*｢⧉ ملاحظه عليك كتابه نقطه قبل كل امر مثل ↚〖.زواج〗*
+*｢⧉ ملاحظه عليك كتابه نقطه قبل كل امر مثل ↚〖.اديت〗*
 ‬`.trim();
 await conn.sendMessage(m.chat, { react: { text: '☠️', key: m.key } })
 
