@@ -8,20 +8,20 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['‪201153573240‬', '🔪 kakashi ', true],
-  ['201153573240', ' 3MK 💸', true],
+  ['201289863299‪', '🔪 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 ', true],
+  ['201289863299', ' 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 💸', true],
 ];
 
-global.xaxa = 'kana'
-global.suittag = ['201153573240', '201153573240'];
-global.prems = ['201004367029', '201004367029'];
+global.xaxa = 'aqua'
+global.suittag = ['201289863299', '201289863299'];
+global.prems = ['201289863299', '201289863299'];
 
-global.packname = '𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩🧸 ';
-global.author = '★𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩🌺★';
-global.wm = '★𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩 BOT★';
-global.titulowm = ' 𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩 ';
-global.titulowm2 = ` 𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩 `
-global.igfg = ' 𝑇𝑅𝐴𝐹𝐴𝐿𝐺𝐴𝑅 𝐿𝐴𝛩 ';
+global.packname = '𝐈𝐭𝐬𝐀𝐡𝐦𝐚𝐝 🇵🇸⁩🧸 ';
+global.author = '★𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼🌺★';
+global.wm = '★𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 BOT★';
+global.titulowm = ' 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 ';
+global.titulowm2 = ` 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 `
+global.igfg = ' 𝘼𝙌𝙐𝘼 𝙎𝘼𝙈𝘼 ';
 global.wait = '*⌛ _جاري التحميل..._*\n\n*▰▰▰▱▱▱▱▱*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
